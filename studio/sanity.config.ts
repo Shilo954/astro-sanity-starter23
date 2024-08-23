@@ -3,7 +3,6 @@ import {structureTool} from 'sanity/structure'
 import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemaTypes'
 import {markdownSchema} from 'sanity-plugin-markdown'
-import { iconify } from 'sanity-plugin-iconify';
 
 
 export default defineConfig({
@@ -18,7 +17,6 @@ export default defineConfig({
   schema: {
     types: schemaTypes,
   },
-  s: [iconify({
     // Optional configuration
 
     // Filter icons by collection for all Icon fields (this field has typed autocomplete ✨)
@@ -30,6 +28,9 @@ export default defineConfig({
     showName: false,
 
 })
+
+
+
 
 
 
